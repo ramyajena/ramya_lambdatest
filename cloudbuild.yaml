@@ -13,6 +13,8 @@ steps:
   env:
   - 'LT_USERNAME=${_LT_USERNAME}'
   - 'LT_ACCESS_KEY=${_LT_ACCESS_KEY}'
+  - '--service-account'
+  - '34463145900@cloudbuild.gserviceaccount.com'
 options:
   logging: CLOUD_LOGGING_ONLY
 
